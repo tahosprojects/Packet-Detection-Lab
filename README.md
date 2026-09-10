@@ -1,4 +1,4 @@
-# Packet-Detection-Lab
+# Packet Detection Lab
  
 Hands-on lab getting practical reps with OPNsense, Wireshark, and Zeek. A segmented network (OPNsense as router/firewall between an attacker box and a victim/internal segment) where I capture and analyze real attack traffic, then build detections on top of it.
  
