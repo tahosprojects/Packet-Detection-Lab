@@ -4,7 +4,7 @@ Hands-on lab getting practical reps with OPNsense, Wireshark, and Zeek. A segmen
 
 ## Topology
 
-![Lab Topology](Screenshots/topology-diagram.png)
+![Lab Topology](Screenshots/PacketLevelDiagram.png)
 
 OPNsense routes and separates segment-a (Kali attacker, Ubuntu victim) from the isolated segment-b (WAN/OPT1).
 
