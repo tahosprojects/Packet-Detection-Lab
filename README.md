@@ -54,10 +54,6 @@ MITM demo against OPNsense's own HTTPS GUI using mitmproxy, showing the negotiat
 ![mitmproxy TLS session detail](Screenshots/mitmproxy-tls-detail.png)
 ![mitmproxy decrypted response](Screenshots/mitmproxy-tls-response.png)
 
-## Incident Report
-
-Final writeup mapping all four attack scenarios to MITRE ATT&CK, located in `/incident-report`.
-
 ## Repo Structure
 
 - `/topology`, network and firewall setup
