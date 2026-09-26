@@ -56,9 +56,7 @@ MITM demo against OPNsense's own HTTPS GUI using mitmproxy, showing the negotiat
 
 ## Repo Structure
 
-- `/topology`, network and firewall setup
-- `/baseline`, normal traffic capture and Zeek visibility check
-- `/arp-spoofing`, `/dns-tunneling`, `/c2-beaconing`, capture, manual Wireshark walkthrough, and detection rule for each attack
-- `/tls-interception`, before/after decryption comparison
-- `/incident-report`, final report mapped to MITRE ATT&CK
-- `/Screenshots`, evidence screenshots referenced above
+- `Packet-Detection-Lab Write-Up.pdf`, full write-up covering the topology, all three attack scenarios, the TLS interception demo, and the MITRE ATT&CK mapping
+- `Suricata-Rules.md`, the custom detection rules for DNS tunneling and C2 beaconing
+- `Captures/`, the raw `.pcapng` files for the baseline, ARP spoofing, DNS tunneling, and C2 beaconing captures
+- `Screenshots/`, the evidence screenshots referenced above
